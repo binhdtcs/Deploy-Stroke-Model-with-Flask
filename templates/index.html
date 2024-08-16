@@ -18,6 +18,7 @@
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
     	<input type="text" name="gender" placeholder="gender" required="required" />
+        <div>Nam(1), Nữ(0)</div>
         <input type="text" name="age" placeholder="age" required="required" />
 		<input type="text" name="hypertension" placeholder="hypertension" required="required" />
 		<input type="text" name="heart_disease" placeholder="heart_disease" required="required" />
